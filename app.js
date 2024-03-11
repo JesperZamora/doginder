@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = 8282;
 
-import path from "path";
+//import path from "path";
 app.use(express.static("public"));
 
 // file system - This module provides functions for interacting with the file system, such as reading and writing files, creating directories, and querying file metadata.
